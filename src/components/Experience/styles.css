@@ -1,0 +1,131 @@
+#experience {
+  height: 33rem;
+  margin-top: 8rem;
+}
+
+.experience__container {
+  display: flex;
+  justify-content: center;
+}
+
+.experience__container > div {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  backdrop-filter: blur(9px);
+}
+
+.experience__container > h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.experience__content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 57rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.raimbow {
+  width: 154px;
+  height: 154px;
+  transform: translate(0%, 0%);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 25px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.raimbow:before {
+  content: '';
+  width: 258px;
+  height: 258px;
+  position: absolute;
+  background: conic-gradient(
+    #f31260,
+    #f31260,
+    #000,
+    #000,
+    #000,
+    #f31260,
+    #f31260,
+    #000,
+    #000,
+    #000,
+    #f31260
+  );
+  animation: spin 5s infinite linear;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.experience__details {
+  display: flex;
+  position: absolute;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 17px;
+  width: 9rem;
+  height: 9rem;
+  flex-direction: column;
+  justify-content: center;
+  background: #000000;
+  backdrop-filter: blur(100px);
+}
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) ===========*/
+@media screen and (max-width: 1245px) {
+  #experience {
+    height: 58rem;
+  }
+
+  .experience__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  h3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #experience {
+    height: 67rem;
+  }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) ===========*/
+@media screen and (max-width: 600px) {
+  #experience {
+    height: 130rem;
+  }
+
+  .experience__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

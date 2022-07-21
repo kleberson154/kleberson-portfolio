@@ -1,0 +1,94 @@
+$color-purple: #8b5cf6;
+$color-pink: #ec4899;
+$color-gray: #9ca3af;
+$color-black: #1f2937;
+$card-size: 23rem;
+
+.Card {
+  width: 100%;
+  height: 30rem;
+  padding: 1rem 1.5rem;
+  background-color: var(--color-bg);
+  border: 2px solid var(--color-primary);
+  border-radius: 1rem;
+  color: var(--color-white);
+  text-align: justify;
+  transition: all 0.3s ease-out;
+
+  h2 {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 0.2em;
+    color: var(--color-white);
+  }
+
+  p,
+  h2 {
+    transition: all 0.3s ease-out;
+    opacity: var(--active);
+  }
+}
+
+.Image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.Description {
+  font-size: 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+  padding-top: 0.3rem;
+  text-align: inherit;
+}
+
+.Tags {
+  margin-top: 0.5rem;
+  border-top: 2px solid var(--color-primary);
+  padding-bottom: 0.3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20rem;
+  @media (max-width: 500px) {
+    width: 18rem;
+  }
+}
+
+.Tag {
+  margin-top: 0.3rem;
+  margin-right: 1rem;
+  font-size: calc(0.8em + 0.3vw);
+}
+
+.CardFooter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.Demo {
+  background-color: var(--color-white);
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem calc(2rem + 1vw);
+  border-radius: 25px 0 0 25px;
+  font-size: calc(1em + 0.5vw);
+  border: 0;
+}
+
+.Github {
+  background-color: var(--color-primary-variant);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.64rem calc(2rem + 1.4vw);
+  border-radius: 0 25px 25px 0;
+  font-size: calc(1em + 0.5vw);
+  border: 0;
+  display: flex;
+  align-items: center;
+}

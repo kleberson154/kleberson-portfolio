@@ -1,0 +1,22 @@
+.BoxCard {
+  background-color: transparent;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color ease 0.5s;
+  width: 50vw;
+  border-radius: 15px;
+}
+
+.ImageCard {
+  width: 100%;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .BoxCard {
+    width: 100%;
+  }
+}
