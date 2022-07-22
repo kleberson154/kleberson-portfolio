@@ -6,12 +6,12 @@ import { Portfolio } from './components/Portfolio'
 import { ContactUs } from './components/Contact'
 import { Footer } from './components/Footer'
 import { Certif } from './components/Certif'
-import { Blur } from './components/Blur'
+/* import { Blur } from './components/Blur' */
 
 export function App() {
   return (
     <div>
-      <Blur />
+      {/* <Blur /> */}
       <Nav />
       <Header />
       <About />
