@@ -2,7 +2,7 @@ export const Work = [
   {
     id: 0,
     name: 'Tesla Clone',
-    image: '/src/assets/img/Projects/tesla-clone.png',
+    image: 'img/Projects/tesla-clone.png',
     description: 'A responsive tesla website with training goals',
     tags: ['REVEAL.JS', 'REDUX', 'React'],
 
@@ -12,7 +12,7 @@ export const Work = [
   {
     id: 1,
     name: 'Page Headphones',
-    image: '/src/assets/img/Projects/Headphones.png',
+    image: 'img/Projects/Headphones.png',
     description:
       'Headphones themed lading page where I learned a little more about reveal.js',
     tags: ['REVEAL.JS', 'Sass', 'Javascript'],
@@ -23,7 +23,7 @@ export const Work = [
   {
     id: 2,
     name: 'nftlading',
-    image: '/src/assets/img/Projects/nft.png',
+    image: 'img/Projects/nft.png',
     description:
       'nft landing page made in react with more modern animations and light and dark mode',
     tags: ['React', 'Sass', 'Javascript'],
@@ -34,7 +34,7 @@ export const Work = [
   {
     id: 3,
     name: 'Cryptocurrency site',
-    image: '/src/assets/img/Projects/Crypto.png',
+    image: 'img/Projects/Crypto.png',
     description:
       'Cryptocurrency site made in react with api consumption with axios',
     tags: ['React', 'API', 'Axios'],
@@ -45,7 +45,7 @@ export const Work = [
   {
     id: 4,
     name: 'Modern UI/UX',
-    image: '/src/assets/img/Projects/modern-ui-ux.png',
+    image: 'img/Projects/modern-ui-ux.png',
     description:
       'nft landing page made in react with the design made in ui/ux methods',
     tags: ['React', 'UI/UX'],
@@ -56,7 +56,7 @@ export const Work = [
   {
     id: 5,
     name: 'Todo-List',
-    image: '/src/assets/img/Projects/Todo.png',
+    image: 'img/Projects/Todo.png',
     description: 'classic todo-list made with react, html and css',
     tags: ['React', 'Html', 'Css'],
 
@@ -66,7 +66,7 @@ export const Work = [
   {
     id: 6,
     name: 'old portfolio',
-    image: '/src/assets/img/Projects/old-portfolio.png',
+    image: 'img/Projects/old-portfolio.png',
     description: 'my old portfolio in react with ui/ux methods',
     tags: ['React', 'UI/UX'],
 
@@ -76,7 +76,7 @@ export const Work = [
   {
     id: 7,
     name: 'Instagram-Login',
-    image: '/src/assets/img/Projects/instagram.png',
+    image: 'img/Projects/instagram.png',
     description:
       'Clone of instagram web login lading page with only html and css',
     tags: ['Html', 'Css'],
@@ -87,7 +87,7 @@ export const Work = [
   {
     id: 8,
     name: 'Login and Register',
-    image: '/src/assets/img/Projects/login-register.png',
+    image: 'img/Projects/login-register.png',
     description:
       'login page with route to register made from scratch with react',
     tags: ['React', 'Css', 'Html'],
@@ -98,7 +98,7 @@ export const Work = [
   {
     id: 9,
     name: 'Snake Game',
-    image: '/src/assets/img/Projects/snake-game.png',
+    image: 'img/Projects/snake-game.png',
     description: 'classic snake game made with pure javascript',
     tags: ['Javascript', 'Html', 'Css'],
 
@@ -108,7 +108,7 @@ export const Work = [
   {
     id: 10,
     name: '404-Not Found',
-    image: '/src/assets/img/Projects/404.png',
+    image: 'img/Projects/404.png',
     description: 'custom 404 error lading page with html and css',
     tags: ['Html', 'Css'],
 
@@ -120,71 +120,71 @@ export const Work = [
 export const Certificate = [
   {
     id: 0,
-    image: '/src/assets/img/Certs/CertConect.png'
+    image: 'img/Certs/CertConect.png'
   },
   {
     id: 1,
-    image: '/src/assets/img/Certs/CertFunda.png'
+    image: 'img/Certs/CertFunda.png'
   },
   {
     id: 2,
-    image: '/src/assets/img/Certs/CertEsp.png'
+    image: 'img/Certs/CertEsp.png'
   },
   {
     id: 3,
-    image: '/src/assets/img/Certs/CertJav.png'
+    image: 'img/Certs/CertJav.png'
   }
 ]
 
 export const Skill = [
   {
     id: 0,
-    image: '/src/assets/img/Icons/html5.svg',
+    image: 'img/Icons/html5.svg',
     name: 'Html'
   },
   {
     id: 1,
-    image: '/src/assets/img/Icons/css3.svg',
+    image: 'img/Icons/css3.svg',
     name: 'Css'
   },
   {
     id: 2,
-    image: '/src/assets/img/Icons/javascript.svg',
+    image: 'img/Icons/javascript.svg',
     name: 'JavaScript'
   },
   {
     id: 3,
-    image: '/src/assets/img/Icons/typescript.svg',
+    image: 'img/Icons/typescript.svg',
     name: 'TypeScript'
   },
   {
     id: 4,
-    image: '/src/assets/img/Icons/react.svg',
+    image: 'img/Icons/react.svg',
     name: 'React'
   },
   {
     id: 5,
-    image: '/src/assets/img/Icons/nextjs-logo.png',
+    image: 'img/Icons/nextjs-logo.png',
     name: 'Next'
   },
   {
     id: 6,
-    image: '/src/assets/img/Icons/nodejs.svg',
+    image: 'img/Icons/nodejs.svg',
     name: 'Node'
   },
   {
     id: 8,
-    image: '/src/assets/img/Icons/mysql.svg',
+    image: 'img/Icons/mysql.svg',
     name: 'MySQL'
   },
   {
     id: 9,
-    image: '/src/assets/img/Icons/Tailwind.png',
+    image: 'img/Icons/Tailwind.png',
     name: 'Tailwind'
   },
   {
-    id: 9,
-    image: '/src/assets/img/Icons/styled-components.svg',
+    id: 10,
+    image: 'img/Icons/styled-components.svg',
     name: 'Styled Components'
   }
 ]

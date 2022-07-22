@@ -13,7 +13,7 @@ export const Certif = () => {
 
   return (
     <motion.section
-      id="portfolioC"
+      id="Certif"
       initial={{ y: 200, opacity: 0 }}
       transition={{ duration: 2 }}
       whileInView={{ y: 0, opacity: 1 }}
