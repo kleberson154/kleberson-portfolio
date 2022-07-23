@@ -20,10 +20,10 @@ export const Card = props => {
         })}
       </p>
       <footer className="CardFooter">
-        <a href={{ pathname: `${demo}` }} passHref={true} target="_blank">
+        <a href={`${demo}`} passHref={true} target="_blank">
           <button className="Demo">visit</button>
         </a>
-        <a href={{ pathname: `${github}` }} passHref={true} target="_blank">
+        <a href={`${github}`} passHref={true} target="_blank">
           <button className="Github">
             <BsGithub width={30} height={30} />
           </button>

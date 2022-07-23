@@ -66,12 +66,12 @@ export const Work = [
   {
     id: 6,
     name: 'old portfolio',
-    image: 'img/Projects/old-portfolio.png',
-    description: 'my old portfolio in react with ui/ux methods',
-    tags: ['React', 'UI/UX'],
+    image: 'img/Projects/old-porfolio.png',
+    description: 'my old portfolio in next with ui/ux methods',
+    tags: ['Next', 'UI/UX', 'Framer-motion'],
 
-    demo: 'https://portkleber.vercel.app/',
-    github: 'https://github.com/kleberson154/portfolio-updated'
+    demo: 'https://my-portfolio2-0-sigma.vercel.app/',
+    github: 'https://github.com/kleberson154/My-Portfolio2.0'
   },
   {
     id: 7,
